@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="student.css">
+    <meta charset="utf-8"/>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 id="head">STUDENT REGISTERATION FORM</h2>
+        </div>
+        <div class="row">
+            <div class="col1">
+                Name
+            </div>
+            <div class="col2">
+                <input type=text name=textnames id="name" placeholder="Enter Name">
+            </div>
+            <div class="col1">
+                Father Name
+            </div>
+            <div class="col2">
+                <input type=text name=textnames placeholder="Enter Father Name">
+            </div>
+            <div class="col1">
+                Personal Address
+            </div>
+            <div class="col2">
+                <input type=text name=address placeholder="Enter the address">
+            </div>
+            <div class="col1">
+                Sex
+            </div>
+            <div class="col2">
+                <input type="radio" name="sex" value="female">Female
+                <input type="radio" name="sex" value="female">Male
+            </div>
+            <div class="col1">
+                Age
+            </div>
+            <div class="col2">
+                <input type=text name=textage placeholder="Enter the age">
+            </div>
+            <div class="col1">
+                Course
+            </div>
+            <div class="col2">
+                <select name="Course">
+                    <option value="-1" selected>select</option>
+                    <option value="B.Tech">B.TECH</option>
+                    <option value="MCA">MCA</option>
+                    <option value="MBA">MBA</option>
+                    <option value="BCA">BCA</option>
+                </select>
+            </div>
+            <div class="col1">
+                District
+            </div>
+            <div class="col2">
+                <select name="District">
+                    <option value="-1" selected>select</option>
+                    <option value="kozhikode">kozhikode</option>
+                    <option value="Kannur">Kannur</option>
+                    <option value="Malappuram">Malappuram</option>
+                    <option value="Thrissur">Thrissur</option>
+                </select>
+            </div>
+            <div class="col1">
+                Pincode
+            </div>
+            <div class="col2">
+                <input type="text" name="pincode" placeholder="Enter the pincode">
+            </div>
+            <div class="col1">
+                EmailId
+            </div>
+            <div class="col2">
+                <input type="text" name="emailid" placeholder="Enter the email">
+            </div>
+            <div class="col1">
+                DOB
+            </div>
+            <div class="col2">
+                <input type="text" name="dob" placeholder="Enter the DOB">
+            </div>
+            <div class="col1">
+                MobileNO
+            </div>
+            <div class="col2">
+                <input type="text" name="mobileno" placeholder="Enter the MobileNo">
+            </div>
+            <div class="col1">
+                <input type="submit" id="buttonSubmit">
+            </div>
+            <div class="col2">
+                <input type="file" id="inputImage" Name="photo">
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+console.log(document.getElementById('name').value) //printf(arunima);
+document.getElementById('name').value = "akhila"; //a=akhila
+console.log(document.getElementById('head').value)
+head.innerText = "FORM";
+var btn = document.createElement("BUTTON");
+var t = document.createTextNode("CLICK ME");
+
+</script>
+
+</html>
